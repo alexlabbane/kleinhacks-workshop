@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- Tell HTML where to find the CSS file -->
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+        <script defer src="script.js"></script>
+    </head>
+
+    <!-- Where the actual content of the website is -->
+    <body>
+        <p>Realtime Chat Room</p>
+        <div class="chat-window">
+            <div class="messages">
+            </div>
+            <div class="message-box">
+                <input id='message-input' onkeydown="window.sendMessage(event)"/>
+            </div>
+        </div>
+    </body>
+</html>
