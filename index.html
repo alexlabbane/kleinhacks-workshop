@@ -3,8 +3,12 @@
     <head>
         <!-- Tell HTML where to find the CSS file -->
         <link rel="stylesheet" href="styles.css">
+
+        <!-- Scripts required by Firebase -->
         <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+
+        <!-- Our script file -->
         <script defer src="script.js"></script>
     </head>
 
@@ -12,8 +16,12 @@
     <body>
         <p>Realtime Chat Room</p>
         <div class="chat-window">
+
+            <!-- Where our messages will appear -->
             <div class="messages">
             </div>
+
+            <!-- Where a user can type messages to send -->
             <div class="message-box">
                 <input id='message-input' onkeydown="window.sendMessage(event)"/>
             </div>
