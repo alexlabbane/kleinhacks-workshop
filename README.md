@@ -9,7 +9,7 @@ To get started with firebase, look here: https://firebase.google.com/docs/web/se
 
 For instructions on how to populate the firebaseConfig variable to access the database, look here: https://firebase.google.com/docs/firestore/quickstart
 
-You should be able to find any othe resources on the firebase website or google as needed.
+You should be able to find any other resources on the firebase website or google as needed.
 
 To "run" the project, you can open index.html in a web browser, and the app should load! You can also use a hosting service to put it on the web. From there, you
 can send the link to your friends and chat with them!
