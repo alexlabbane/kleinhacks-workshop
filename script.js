@@ -1,14 +1,7 @@
 
 // Initialization code for using Google Firebase
 // Found here: https://firebase.google.com/docs/firestore/quickstart
-var firebaseConfig = {
-apiKey: "AIzaSyDpGJxZztDa8lffEJkzXCzDJmSRSE0t0Ak",
-authDomain: "kleinhackschatapp.firebaseapp.com",
-projectId: "kleinhackschatapp",
-storageBucket: "kleinhackschatapp.appspot.com",
-messagingSenderId: "22780951362",
-appId: "1:22780951362:web:2aa38aafc1f3c42afa26db"
-};
+var firebaseConfig = // replace with your own firebase config by following the quickstart guide
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
