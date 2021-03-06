@@ -13,3 +13,5 @@ You should be able to find any other resources on the firebase website or google
 
 To "run" the project, you can open index.html in a web browser, and the app should load! You can also use a hosting service to put it on the web. From there, you
 can send the link to your friends and chat with them!
+
+You can see a live version of the app here: https://kleinhackschatapp.web.app
