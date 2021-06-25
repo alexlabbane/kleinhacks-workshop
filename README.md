@@ -1,7 +1,9 @@
 # Real-time Chat Application (KleinHacks 2021)
-Real-time chat application for KleinHacks
+Real-time chat application for KleinHacks 2021 Web Development Workshop.
 
-This is the example real-time chat application coded during the 2021 KleinHacks Intro to Web Development Workshop
+This is the example real-time chat application coded during the 2021 KleinHacks Intro to Web Development Workshop.
+
+![image](https://user-images.githubusercontent.com/42943255/123489789-94683e80-d5c7-11eb-9abf-819125f926cb.png)
 
 To make this example work for yourself, you will need to replace the firebaseConfig variable on line 4 of script.js with the config values of your firebase project.
 
